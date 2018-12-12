@@ -25,4 +25,4 @@ ELSEIF (UNIX)
     MESSAGE(STATUS "Now is UNIX-like OS's.")
 ENDIF ()
 
-add_executable(vfilter main.cpp)
+add_executable(vfilter main2.cpp VideoInputFile.cpp VideoInputFile.h)
