@@ -37,6 +37,7 @@ void captureOneFrame(void)
         return;
     }
 
+    avformat_alloc_output_context2()
     if (avformat_open_input(&fmtCtx, file_name, inputFmt, NULL) < 0)
     {
         printf("can not open_input_file\n");
