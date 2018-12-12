@@ -14,6 +14,11 @@ extern "C" {
 #include "libavutil/avutil.h"
 #include "libavformat/avformat.h"
 #include "libswscale/swscale.h"
+#include "libavutil/opt.h"
+#include <libavutil/mathematics.h>
+#include <libavutil/timestamp.h>
+#include <libavutil/avassert.h>
+#include <libswresample/swresample.h>
 #ifdef __cplusplus
 }
 #endif
